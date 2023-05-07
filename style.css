@@ -1,0 +1,37 @@
+.navbar__menu{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.navbar__menu > li{
+    display: block;
+}
+.navbar__menu > li:hover{
+    background-color: rgb(192, 192, 192);
+}
+.navEf{
+    animation: nav .4s linear forwards;
+}
+.navEfBack{
+    animation: nav1 .4s linear forwards;
+
+}
+@keyframes nav{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes nav1{
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}

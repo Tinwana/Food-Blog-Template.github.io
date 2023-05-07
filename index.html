@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>My blog</title>
+</head>
+<body>
+    <header class="container d-flex justify-content-between fixed-top bg-white">
+        <nav class="navbar">
+            <div class="container">
+                <button class="navbar-toggler nav__btn" type="button"    >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <ul class="navbar-nav fixed-top shadow bg-light h-100 w-100 navbar__menu">
+                        <li class="nav-item close__nav">
+                          <a class="nav-link fs-2 p-3" aria-current="page" href="#">Close menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2 p-3" aria-current="page" href="#">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2 p-3" aria-current="page" href="#">About</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        <span class="p-3 fs-4"><a class="text-dark text-decoration-none" href="">My Food</a></span>
+        <span class="p-3 fs-4"><a class="text-dark text-decoration-none" href="">Mail</a></span>
+    </header>
+    <main class="mt-5">
+        <section class="container d-flex justify-content-center flex-wrap gap-5 border-bottom food__menu">
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column">
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                        <h4 class="fw-normal">The Perfect Sandwich, A Real NYC Classic</h4>
+                        <p class="m-0">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+                        <h4 class="fw-normal">All I Need Is a Popsicle</h4>
+                        <p class="m-0">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column">
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+                        <h4 class="fw-normal">Let Me Tell You About This Steak</h4>
+                        <p class="m-0">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+                        <h4 class="fw-normal">Salmon For Your Skin</h4>
+                        <p class="m-0">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column">
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+                        <h4 class="fw-normal">Cherries, interrupted</h4>
+                        <p class="m-0">Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                            What else?</p>
+                    </div>
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                        <h4 class="fw-normal">The Perfect Sandwich, A Real Classic</h4>
+                        <p class="m-0">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 d-flex flex-column">
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+                        <h4 class="fw-normal">Once Again, Robust Wine and Vegetable Pasta</h4>
+                        <p class="m-0">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="food__item flex-grow-1 d-flex flex-column text-center align-items-center">
+                        <img class="w-100" src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+                        <h4 class="fw-normal">Le French</h4>
+                        <p class="m-0">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item ">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item "><a class="page-link" href="#">2</a></li>
+                  <li class="page-item "><a class="page-link" href="#">3</a></li>
+                  <li class="page-item ">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </section>
+        <section class="container d-flex flex-column align-items-center flex-wrap gap-5 mt-5 border-bottom about">
+            <h4 class="fw-normal text-center">About Me, The Food Man</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-12">
+                    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="about__content text-center">
+                <h5>I am Who I Am!</h5>
+                <p>With Passion For Real, Good Food</p>
+                <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="container mt-5">
+        <div class="row gy-5">
+            <div class="col-md-4 col-12">
+                <div class="footer__item">
+                    <h4 class="fw-normal">FOOTER</h4>
+                    <P class="fw-normal">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</P>
+                    <p class="text-dark">Powered by <span><a class="link-dark" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></span></p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="footer__item">
+                    <h4 class="fw-normal">BLOG POSTS</h4>
+                    <div class="card__item d-flex justify-content-start border-bottom px-1 py-3 ms-2">
+                        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" width="50" height="50">
+                        <div class="card__item--content d-flex flex-column justify-content-center px-3">
+                            <p class="fs-5 m-0">Lorem</p>
+                            <p class="fw-normal m-0">Sed mattis nunc</p>
+                        </div>
+                    </div>
+                    <div class="card__item d-flex justify-content-start border-bottom px-1 py-3 ms-2">
+                        <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="" width="50" height="50">
+                        <div class="card__item--content d-flex flex-column justify-content-center px-3">
+                            <p class="fs-5 m-0">Ipsum</p>
+                            <p class="fw-normal m-0">Praes tinci sed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="footer__item">
+                    <h4 class="fw-normal">POPULAR TAGS</h4>
+                    <button class="btn rounded-0 btn-light text-bg-dark p-1 my-1">Travels</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">New York</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">London</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">IKEA</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">NORWAY</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">DIY</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Ideas</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Baby</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Family</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">News</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Clothing</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Shopping</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Sports</button>
+                    <button class="btn rounded-0 btn-light p-1 my-1">Games</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./logic.js"></script>
+</body>
+</html>
